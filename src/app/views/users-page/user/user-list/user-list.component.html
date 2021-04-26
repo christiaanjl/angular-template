@@ -1,0 +1,8 @@
+<mat-card class='user-list'>
+    <app-user-card *ngFor="let user of userStore.users"
+                   (click)="selectUser(user.id)"
+                   [user]="user">
+    </app-user-card>
+</mat-card>
+
+

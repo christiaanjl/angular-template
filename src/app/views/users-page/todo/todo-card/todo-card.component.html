@@ -1,0 +1,9 @@
+<div class="card">
+    <mat-checkbox (change)="check($event.checked)"
+                  [checked]="todo.completed"
+                  disableRipple>
+    </mat-checkbox>
+    <div style="padding: 10px">
+        {{ todo.title }}
+    </div>
+</div>

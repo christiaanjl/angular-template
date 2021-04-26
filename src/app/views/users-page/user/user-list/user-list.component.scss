@@ -1,0 +1,12 @@
+.user-list {
+    max-height: 800px;
+    width: 300px;
+    overflow: auto;
+    scrollbar-width: none; // hide scroll bar - Firefox
+    -ms-overflow-style: none; // hide scroll bar - IE, Edge
+
+    &::-webkit-scrollbar {
+        display: none;
+    }
+}
+

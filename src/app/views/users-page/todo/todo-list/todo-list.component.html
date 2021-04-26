@@ -1,0 +1,15 @@
+
+<ng-container *ngIf="todoStore.fetchStatus === status.BUSY" >
+    <app-progress-spinner></app-progress-spinner>
+</ng-container>
+
+<mat-card class='todo-list' *ngIf="todoStore.fetchStatus === status.SUCCESS">
+    <app-header>
+        To do
+    </app-header>
+    <app-todo-card *ngFor="let todo of todoStore.todos"
+                   [todo]="todo">
+    </app-todo-card>
+</mat-card>
+
+
