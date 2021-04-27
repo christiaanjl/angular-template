@@ -5,7 +5,7 @@ Demo showing use of RxJS based Observable Data Services to maintain application 
 ## UI
 Initial project fetches users and their to-do items from [jsonplaceholder](https://jsonplaceholder.typicode.com)
 
-![screenshot](screenshot.png)
+![screenshot](./Screenshot.png)
 
 
 ## Project structure
