@@ -2,6 +2,11 @@
 
 Demo showing use of RxJS based Observable Data Services to maintain application state. Of particular interest are the [stores](./src/app/store).
 
+Other templates:
+* [React Context](https://github.com/christiaanjl/react-context-template)
+* [Redux](https://github.com/christiaanjl/react-redux-template)
+* [Redux-Saga](https://github.com/christiaanjl/react-saga-framework)
+
 ## UI
 Initial project fetches users and their to-do items from [jsonplaceholder](https://jsonplaceholder.typicode.com)
 
